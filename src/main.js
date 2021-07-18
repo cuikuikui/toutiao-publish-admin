@@ -4,6 +4,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// 加载全局样式文件
+import './styles/index.less'
+
 Vue.config.productionTip = false
 
 // 创建Vue的根实例
